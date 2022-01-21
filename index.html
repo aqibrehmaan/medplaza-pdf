@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Plaza</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'sans-serif';
+            height: 100%;
+        }
+
+        .wrapper {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #d4d4d6;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .header p {
+            padding: 0.1rem 0;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        .content-body {
+            padding: 0 2.3rem;
+            background-color: #F0F0F2;
+        }
+
+        .content-body .logo img {
+            width: 80px;
+        }
+
+        .content-body .logo-name-content div {
+            float: left;
+        }
+
+        .clearfix {
+            clear: both;
+            content: "";
+            display: table;
+        }
+
+        .content-body .logo {
+            width: 20%;
+            padding-top: 16px;
+        }
+
+        .content-body .name-phone {
+            width: 50%;
+            padding-top: 20px;
+        }
+
+        .content-body .dob {
+            width: 20%;
+        }
+
+        .name-phone p {
+            padding-bottom: 10px;
+            color: #707070;
+            font-weight: bold;
+        }
+
+        .name-phone strong {
+            color: #000;
+        }
+
+        .dob {
+            padding-top: 18px;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+
+        .dob p {
+            padding-bottom: 10px;
+            color: #707070;
+        }
+
+        .dob p strong {
+            color: #000;
+            padding-right: 15px;
+        }
+
+        .line {
+            height: 2px;
+            width: 600px;
+            margin: 30px auto;
+            background-color: #000;
+        }
+
+        .pres-head h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid #333;
+            background-color: #fff;
+        }
+
+        table tr,
+        table tr th,
+        table tr td {
+            border: 1px solid #333;
+            padding: 5px;
+            font-size: 15px;
+        }
+
+        .footer .footer-col {
+            float: left;
+            padding-bottom: 30px;
+        }
+
+        .footer .disperse {
+            width: 60%;
+            height: 180px;
+        }
+
+        .footer .disperse-inner {
+            display: table;
+            height: 100%;
+        }
+
+        .footer .disperse h3 {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .subs .doctor h3 {
+            border-bottom: 1px solid #333;
+            margin-bottom: 42px;
+            display: inline-block;
+        }
+
+        .subs .subs-content h3 {
+            margin-bottom: 5px;
+        }
+
+        .subs .subs-content p {
+            padding: 10px 0 0;
+        }
+
+        .subs .subs-content p span {
+            margin-left: 8px;
+            border-bottom: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p>
+                Supersize Health Center
+            </p>
+            <p>
+                123 Main Street Big City, Upstate 12345
+            </p>
+            <p>
+                (123) 456-7890
+            </p>
+        </div>
+        <div class="content-body">
+            <div class="logo-name-content">
+                <div class="logo">
+                    <img src="./logo-img.png" alt="Logo Image">
+                </div>
+                <div class="name-phone">
+                    <p><strong>Name:</strong> Cindy Allen</p>
+                    <p><strong>Phone:</strong> 123-456-7890</p>
+                    <p><strong>Address:</strong> 34 Cherry Lane AnyTown, USA 22222</p>
+                </div>
+                <div class="dob">
+                    <p>
+                        <strong>Date:</strong>08/13/13
+                    </p>
+                    <p>
+                        <strong>DOB:</strong>02/24/73
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="line"></div>
+
+            <div class="pres-head">
+                <h3>Prescription:</h3>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Medication</th>
+                        <th>Discipline</th>
+                        <th>Height</th>
+                        <th>Supply</th>
+                        <th>Supply 2</th>
+                        <th>Pharmacy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Kelly</td>
+                        <td>Los Ageles, California United States 2300 street</td>
+                        <td>30</td>
+                        <td>2</td>
+                        <td>30</td>
+                        <td>England</td>
+                        <td>NULL</td>
+                    </tr>
+                    <tr>
+                        <td>John Kelly</td>
+                        <td>Los Ageles, California United States 2300 street</td>
+                        <td>30</td>
+                        <td>2</td>
+                        <td>30</td>
+                        <td>England</td>
+                        <td>NULL</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="line"></div>
+
+            <div class="footer">
+                <div class="footer-col disperse">
+                    <div class="disperse-inner">
+                        <h3>Disperse as written</h3>
+                    </div>
+
+                </div>
+                <div class="footer-col subs">
+                    <div class="doctor">
+                        <h3>Dr. Best MD</h3>
+                    </div>
+                    <div class="subs-content">
+                        <h3>Substitution Permissible</h3>
+                        <p>
+                            DEA# <span>John Kelly DEA</span>
+                        </p>
+                        <p>
+                            NFF# <span>John Kelly NFF</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
